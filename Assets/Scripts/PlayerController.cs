@@ -17,8 +17,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
 
     // adding hang time between platforms (from YOUTUBE TUTURIAL)
-    //public float hangTime = .2f;
-    //private float hangCounter;
+    public float hangTime = .2f;
+    private float hangCounter;
 
     private void Awake()
     {
@@ -33,12 +33,39 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        //movement
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), theRB.velocity.y);
+
+        //jumping
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .05f, whatIsGround);
+
+        if (isGrounded)
+        {
+            hangCounter = hangTime;
+        }
+        else
+        {
+            hangCounter -= Time.deltaTime;
+        }
 
         if (Input.GetButtonDown("Jump"))
         {
-            theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
-            //AudioManager.instance.PlaySFX(10);
+            if (hangCounter > 0f)
+            {
+                theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
+                //AudioManager.instance.PlaySFX(10);
+                hangCounter = 0f;
+            }
+        }
+
+        //direction change
+        if (theRB.velocity.x < 0)
+        {
+            theSR.flipX = true;
+        }
+        else if (theRB.velocity.x > 0)
+        {
+            theSR.flipX = false;
         }
     }
 }

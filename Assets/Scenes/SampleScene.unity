@@ -752,6 +752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ebf4178a2434b2fa3927e927af14f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  colorToChange: {r: 0.9098039, g: 0.45882353, b: 1, a: 1}
+  objectToColorChange: {fileID: 1280306414}
 --- !u!61 &1312843954
 BoxCollider2D:
   m_ObjectHideFlags: 0

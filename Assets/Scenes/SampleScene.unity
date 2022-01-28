@@ -500,9 +500,10 @@ GameObject:
   - component: {fileID: 1208386228}
   - component: {fileID: 1208386230}
   - component: {fileID: 1208386229}
+  - component: {fileID: 1208386231}
   m_Layer: 0
   m_Name: Wall_Left
-  m_TagString: Untagged
+  m_TagString: Tessell_FG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,6 +599,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1208386231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208386227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d037942310152408e86bfe5c24e759fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorToChange: {r: 0.6713932, g: 1, b: 0.6273585, a: 1}
 --- !u!1 &1280306414
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,9 +623,10 @@ GameObject:
   - component: {fileID: 1280306415}
   - component: {fileID: 1280306417}
   - component: {fileID: 1280306416}
+  - component: {fileID: 1280306418}
   m_Layer: 0
   m_Name: Wall_Right
-  m_TagString: Untagged
+  m_TagString: Tessell_FG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -707,6 +722,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1280306418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280306414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d037942310152408e86bfe5c24e759fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorToChange: {r: 0.5518868, g: 0.5802159, b: 1, a: 1}
 --- !u!1 &1312843951
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,8 +780,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ebf4178a2434b2fa3927e927af14f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colorToChange: {r: 0.9098039, g: 0.45882353, b: 1, a: 1}
-  objectToColorChange: {fileID: 1280306414}
 --- !u!61 &1312843954
 BoxCollider2D:
   m_ObjectHideFlags: 0

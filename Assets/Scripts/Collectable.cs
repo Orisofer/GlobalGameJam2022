@@ -7,6 +7,9 @@ public class Collectable : MonoBehaviour
 
     private GameObject[] objectToColorChange;
 
+    //check for object in the radius
+    [SerializeField] LayerMask tessellLayer;
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")

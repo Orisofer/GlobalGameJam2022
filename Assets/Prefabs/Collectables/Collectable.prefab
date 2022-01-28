@@ -122,3 +122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ebf4178a2434b2fa3927e927af14f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tessellLayer:
+    serializedVersion: 2
+    m_Bits: 128

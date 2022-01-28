@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7633106642684465210}
   - component: {fileID: 4640768670228479179}
   - component: {fileID: 1330679677855068395}
+  - component: {fileID: -4131213108624000935}
   m_Layer: 6
-  m_Name: Rock2_1
+  m_Name: Rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,3 +121,15 @@ PolygonCollider2D:
       - {x: -2.1843562, y: 1.9154406}
       - {x: -2.768691, y: -0.07485294}
       - {x: -2.8609705, y: -2.0605419}
+--- !u!114 &-4131213108624000935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580835697577162444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85aa8b6c8747f4274a3fc4c94f6a5601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

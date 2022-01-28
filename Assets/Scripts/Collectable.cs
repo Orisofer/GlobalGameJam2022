@@ -6,24 +6,35 @@ public class Collectable : MonoBehaviour
 {
 
     private GameObject[] objectToColorChange;
+    [SerializeField] private float radius;
+
+    public ContactFilter2D CF2;
+
+    List<Collider2D> results = new List<Collider2D>();
 
     //check for object in the radius
-    [SerializeField] LayerMask tessellLayer;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            objectToColorChange = GameObject.FindGameObjectsWithTag("Tessell_FG");
+            int collectableCollider = Physics2D.OverlapCircle(transform.position, radius, CF2, results);
+            print("collectableCollider: " + collectableCollider);
+            print("results: " + results);
 
-            foreach (GameObject obj in objectToColorChange)
+            for (int i=0; i<collectableCollider; i++)
             {
-                ColorChange CC = obj.GetComponent<ColorChange>();
-                CC.ChangeColor();
-                //StartCoroutine(CC.ChangeColor());
+                print(results[i].gameObject);
+                if (results[i].gameObject.tag == "Player")
+                {
+                    continue;
+                }
+                ColorChange CC = results[i].gameObject.GetComponent<ColorChange>();
+                CC.SetDifferentColor();
             }
 
             gameObject.SetActive(false);
+            
         }
     }
 

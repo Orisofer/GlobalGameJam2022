@@ -511,8 +511,8 @@ ScriptedImporter:
     uvTransform: {x: 1663, y: 6252}
   - name: Monster
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.8406101, y: 0.78587186}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -621,8 +621,8 @@ ScriptedImporter:
     uvTransform: {x: 1446, y: 2618}
   - name: Hand1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.87723655, y: 0.8966552}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +643,8 @@ ScriptedImporter:
     uvTransform: {x: 192, y: 1544}
   - name: Hand2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.92963064, y: 0.31542534}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

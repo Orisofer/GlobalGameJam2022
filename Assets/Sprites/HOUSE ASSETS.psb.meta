@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: acd23662eb990c94fbc312dfe148b379
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: houseAsset1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 3021
+      width: 1699
+      height: 543
+    spriteID: e897e5c8bad79cf40b3f0d40eecd24cd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1320, y: 2386}
+  - name: houseAsset2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 4063
+      width: 1869
+      height: 417
+    spriteID: 8903d5b1218a9454da775ce3c016feea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1444, y: 3359}
+  - name: houseAsset3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 3572
+      width: 1833
+      height: 483
+    spriteID: f94130d1b76f9ea4caca49610ca508c8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1400, y: 2847}
+  - name: houseAsset4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 4852
+      width: 1575
+      height: 310
+    spriteID: 53e4dafc23e96c24abbd859085ac5a69
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1262, y: 3902}
+  - name: houseAsset5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 4488
+      width: 1766
+      height: 356
+    spriteID: 61cb2e0738dd5524db14098b7ca19339
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1381, y: 3627}
+  - name: staires1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 4
+      width: 1526
+      height: 1142
+    spriteID: 4af16580e22aae6419d9ed4bdd13cc4d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1336, y: -442}
+  - name: staires2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 1154
+      width: 1772
+      height: 873
+    spriteID: 6ba60dba9777f96409411b07785ed6c4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1433, y: 558}
+  - name: staires3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1518
+      y: 2035
+      width: 1214
+      height: 978
+    spriteID: 69b684bbd8e732549ae4038a9abcca0b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1118, y: 1485}
+  - name: staires4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1506
+      height: 1202
+    spriteID: 466b08550196a7448917badcb344379c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -274, y: -287}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 2000, y: 2000}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 8192
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: houseAsset1
+    spriteName: houseAsset1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e897e5c8bad79cf40b3f0d40eecd24cd
+    layerID: 13
+    mosaicPosition: {x: 1518, y: 3021}
+  - name: houseAsset2
+    spriteName: houseAsset2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8903d5b1218a9454da775ce3c016feea
+    layerID: 11
+    mosaicPosition: {x: 1518, y: 4063}
+  - name: houseAsset3
+    spriteName: houseAsset3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f94130d1b76f9ea4caca49610ca508c8
+    layerID: 10
+    mosaicPosition: {x: 1518, y: 3572}
+  - name: houseAsset4
+    spriteName: houseAsset4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 53e4dafc23e96c24abbd859085ac5a69
+    layerID: 9
+    mosaicPosition: {x: 1518, y: 4852}
+  - name: houseAsset5
+    spriteName: houseAsset5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 61cb2e0738dd5524db14098b7ca19339
+    layerID: 8
+    mosaicPosition: {x: 1518, y: 4488}
+  - name: staires1
+    spriteName: staires1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4af16580e22aae6419d9ed4bdd13cc4d
+    layerID: 7
+    mosaicPosition: {x: 1518, y: 4}
+  - name: staires2
+    spriteName: staires2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6ba60dba9777f96409411b07785ed6c4
+    layerID: 6
+    mosaicPosition: {x: 1518, y: 1154}
+  - name: staires3
+    spriteName: staires3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 69b684bbd8e732549ae4038a9abcca0b
+    layerID: 4
+    mosaicPosition: {x: 1518, y: 2035}
+  - name: staires4
+    spriteName: staires4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 466b08550196a7448917badcb344379c
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: HOUSE ASSETS Texture
+  prefabAssetName: HOUSE ASSETS Prefab
+  spriteLibAssetName: HOUSE ASSETS Sprite Lib
+  secondarySpriteTextures: []

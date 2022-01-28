@@ -5,14 +5,21 @@ using UnityEngine;
 public class Collectable : MonoBehaviour
 {
 
-    [SerializeField] private Color colorToChange;
-    [SerializeField] private GameObject objectToColorChange;
+    private GameObject[] objectToColorChange;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            objectToColorChange.GetComponent<SpriteRenderer>().color = colorToChange;
+            objectToColorChange = GameObject.FindGameObjectsWithTag("Tessell_FG");
+
+            foreach (GameObject obj in objectToColorChange)
+            {
+                ColorChange CC = obj.GetComponent<ColorChange>();
+                CC.ChangeColor();
+                //StartCoroutine(CC.ChangeColor());
+            }
+
             gameObject.SetActive(false);
         }
     }

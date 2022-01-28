@@ -1,11 +1,16 @@
 {
   "dependencies": {
     "com.unity.2d.animation": {
+<<<<<<< HEAD
+      "version": "5.0.10",
+      "depth": 1,
+=======
       "version": "5.0.8",
       "depth": 0,
+>>>>>>> af318e54352869a822f0faa9f938439818b4b9cf
       "source": "registry",
       "dependencies": {
-        "com.unity.2d.common": "4.0.3",
+        "com.unity.2d.common": "4.0.4",
         "com.unity.mathematics": "1.1.0",
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
@@ -14,7 +19,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.common": {
-      "version": "4.0.3",
+      "version": "4.0.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -38,12 +43,21 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
+<<<<<<< HEAD
+      "version": "4.1.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.common": "4.0.4",
+        "com.unity.2d.animation": "5.0.10",
+=======
       "version": "4.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "4.0.3",
         "com.unity.2d.animation": "5.0.8",
+>>>>>>> af318e54352869a822f0faa9f938439818b4b9cf
         "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -71,6 +85,13 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.cinemachine": {
+      "version": "2.6.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
       "version": "1.13.5",

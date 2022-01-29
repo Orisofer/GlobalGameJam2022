@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //public static PlayerController instance;
+    public static PlayerController instance;
 
     public float moveSpeed;
     public Rigidbody2D theRB;
@@ -20,15 +20,18 @@ public class PlayerController : MonoBehaviour
     public float hangTime = .2f;
     private float hangCounter;
 
+    //animation
+    private Animator theAnim;
+
     private void Awake()
     {
-        //instance = this;
+        instance = this;
     }
 
     void Start()
     {
-        //anim = GetComponent<Animator>();
         theSR = GetComponent<SpriteRenderer>();
+        theAnim = GetComponent<Animator>();
     }
 
     void Update()
@@ -37,7 +40,7 @@ public class PlayerController : MonoBehaviour
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), theRB.velocity.y);
 
         //jumping
-        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .08f, whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .1f, whatIsGround);
 
         if (isGrounded)
         {
@@ -52,10 +55,13 @@ public class PlayerController : MonoBehaviour
         {
             if (hangCounter > 0f)
             {
+                theAnim.SetTrigger("Jumping");
                 theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
                 //AudioManager.instance.PlaySFX(10);
                 hangCounter = 0f;
             }
+
+            //theAnim.SetBool("Jump", false);
         }
 
         //direction change

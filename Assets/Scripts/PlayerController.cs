@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
         //jumping
         isGrounded =
             Physics2D
-                .OverlapCircle(groundCheckPoint.position, .05f, whatIsGround);
+                .OverlapCircle(groundCheckPoint.position, .1f, whatIsGround);
 
         if (isGrounded)
         {

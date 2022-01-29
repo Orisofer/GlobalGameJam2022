@@ -33,6 +33,11 @@ public class Collectable : MonoBehaviour
                 {
                     CC.SetDifferentColor();
                 }
+
+                TriggerChange TC = results[i].gameObject.GetComponent<TriggerChange>();
+                if( TC != null){
+                    TC.SetIsTriggerFalse();
+                }
             }
 
             gameObject.SetActive(false);

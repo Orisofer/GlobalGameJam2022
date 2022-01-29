@@ -29,6 +29,10 @@ public class PlayerController : MonoBehaviour
 
     private float hangCounter;
 
+    //animations
+
+    private Animator anim;
+
     private void Awake()
     {
         instance = this;
@@ -36,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         theSR = GetComponent<SpriteRenderer>();
     }
 
@@ -48,16 +52,16 @@ public class PlayerController : MonoBehaviour
                 theRB.velocity.y);
 
         //jumping
-        isGrounded =
-            Physics2D
-                .OverlapCircle(groundCheckPoint.position, .1f, whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .1f, whatIsGround);
 
         if (isGrounded)
         {
+            anim.SetBool("isGrounded", true);
             hangCounter = hangTime;
         }
         else
         {
+            anim.SetBool("isGrounded", false);
             hangCounter -= Time.deltaTime;
         }
 
@@ -66,6 +70,7 @@ public class PlayerController : MonoBehaviour
             if (hangCounter > 0f)
             {
                 theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
+                anim.SetTrigger("Jumping");
 
                 //AudioManager.instance.PlaySFX(10);
                 hangCounter = 0f;
@@ -76,13 +81,20 @@ public class PlayerController : MonoBehaviour
         Vector3 temp = fitch.transform.localScale;
         if (theRB.velocity.x < 0)
         {
+            //print("entering flipX");
+            anim.SetBool("isWalking", true);
             temp.x = Mathf.Abs(temp.x);
             theSR.flipX = true;
         }
         else if (theRB.velocity.x > 0)
         {
+            //print("entering flipX 2");
+            anim.SetBool("isWalking", true);
             temp.x = -Mathf.Abs(temp.x);
             theSR.flipX = false;
+        } else if (theRB.velocity.x == 0)
+        {
+            anim.SetBool("isWalking", false);
         }
         fitch.transform.localScale = temp;
     }

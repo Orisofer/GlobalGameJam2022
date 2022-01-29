@@ -9061,8 +9061,24 @@ PrefabInstance:
       value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 2072141161, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072141161, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
       propertyPath: volumeDown
-      value: 100
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072141161, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
+      propertyPath: originalVolume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072141161, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
+      propertyPath: gameMusic.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072141161, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
+      propertyPath: soundEffects.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2226276272733726350, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
       propertyPath: m_RootOrder
@@ -9108,11 +9124,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6863725500535904724, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863725500535904724, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.85
+      objectReference: {fileID: 0}
     - target: {fileID: 6878828336480559502, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
       propertyPath: m_Name
       value: Game Manager
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2072141161, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c36efb63e91b388449a1b3fa047ba30d, type: 3}
 --- !u!1001 &1684772866
 PrefabInstance:

@@ -19,10 +19,9 @@ public class PlayerController : MonoBehaviour
 
     // Ground Checking For Unlimited jumping
     public bool isGrounded;
-
     public Transform groundCheckPoint;
-
     public LayerMask whatIsGround;
+    private BoxCollider2D boxCollider2D;
 
     // adding hang time between platforms (from YOUTUBE TUTURIAL)
     public float hangTime = .2f;
@@ -42,6 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         theSR = GetComponent<SpriteRenderer>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     void Update()
@@ -52,9 +52,9 @@ public class PlayerController : MonoBehaviour
                 theRB.velocity.y);
 
         //jumping
-        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .1f, whatIsGround);
+        //isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .1f, whatIsGround);
 
-        if (isGrounded)
+        if (IsGrounded())
         {
             anim.SetBool("isGrounded", true);
             hangCounter = hangTime;
@@ -97,5 +97,23 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isWalking", false);
         }
         fitch.transform.localScale = temp;
+    }
+
+    //ground check
+    private bool IsGrounded()
+    {
+        float extraHeightText = 1f;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.size, 0f, Vector2.down, extraHeightText, whatIsGround);
+        Color raycolor;
+        if (raycastHit.collider != null)
+        {
+            raycolor = Color.green;
+        }
+        else
+        {
+            raycolor = Color.red;
+        }
+
+        return raycastHit.collider != null;
     }
 }

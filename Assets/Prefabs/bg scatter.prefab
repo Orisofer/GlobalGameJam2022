@@ -3806,6 +3806,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 69.254
       objectReference: {fileID: 0}
+    - target: {fileID: 6823957823320236715, guid: f7fb5080d8068fb4da4187376c39505c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7051050930101812368, guid: f7fb5080d8068fb4da4187376c39505c, type: 3}
       propertyPath: m_Name
       value: Bone (1)
@@ -3883,6 +3887,10 @@ PrefabInstance:
     - target: {fileID: 1665252314672478701, guid: f7fb5080d8068fb4da4187376c39505c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823957823320236715, guid: f7fb5080d8068fb4da4187376c39505c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7051050930101812368, guid: f7fb5080d8068fb4da4187376c39505c, type: 3}
       propertyPath: m_Name

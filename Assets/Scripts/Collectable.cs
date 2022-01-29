@@ -19,18 +19,20 @@ public class Collectable : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             int collectableCollider = Physics2D.OverlapCircle(transform.position, radius, CF2, results);
-            print("collectableCollider: " + collectableCollider);
-            print("results: " + results);
 
             for (int i=0; i<collectableCollider; i++)
             {
-                print(results[i].gameObject);
                 if (results[i].gameObject.tag == "Player")
                 {
                     continue;
                 }
+
                 ColorChange CC = results[i].gameObject.GetComponent<ColorChange>();
-                CC.SetDifferentColor();
+
+                if (CC != null)
+                {
+                    CC.SetDifferentColor();
+                }
             }
 
             gameObject.SetActive(false);

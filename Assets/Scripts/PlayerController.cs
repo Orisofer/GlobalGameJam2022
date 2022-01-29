@@ -79,6 +79,8 @@ public class PlayerController : MonoBehaviour
 
         //direction change
         Vector3 temp = fitch.transform.localScale;
+        Vector3 fitchRotation = fitch.transform.eulerAngles;
+
         if (theRB.velocity.x < 0)
         {
             //print("entering flipX");
@@ -92,6 +94,8 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("isWalking", true);
             temp.x = -Mathf.Abs(temp.x);
             theSR.flipX = false;
+            fitch.transform.Rotate(new Vector3(0, 0, 0));
+
         } else if (theRB.velocity.x == 0)
         {
             anim.SetBool("isWalking", false);

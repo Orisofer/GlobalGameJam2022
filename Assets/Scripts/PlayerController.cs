@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController instance;
+    //public static PlayerController instance;
 
     public float moveSpeed;
     public Rigidbody2D theRB;
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        //instance = this;
     }
 
     void Start()
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxisRaw("Horizontal"), theRB.velocity.y);
 
         //jumping
-        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .05f, whatIsGround);
+        isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .08f, whatIsGround);
 
         if (isGrounded)
         {

@@ -20322,6 +20322,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4183039383098142070, guid: 5cf3a075a71831b47ab252101b61250e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 6248717231587574432, guid: 5cf3a075a71831b47ab252101b61250e, type: 3}
       propertyPath: m_Name
       value: Chicken man
@@ -21383,6 +21387,10 @@ PrefabInstance:
     - target: {fileID: 3167988756646295654, guid: 366fa48dac9e9d8438c649f29e518aef, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167988756646295654, guid: 366fa48dac9e9d8438c649f29e518aef, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6894220797747594272, guid: 366fa48dac9e9d8438c649f29e518aef, type: 3}
       propertyPath: m_RootOrder

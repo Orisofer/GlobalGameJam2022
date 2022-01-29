@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 8210489699444276947}
   - component: {fileID: 8210489699444276946}
   - component: {fileID: 8210489699444276945}
+  - component: {fileID: -3373495697560256324}
   m_Layer: 6
   m_Name: gound3
   m_TagString: Untagged
@@ -274,3 +275,15 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &-3373495697560256324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8210489699444276944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85aa8b6c8747f4274a3fc4c94f6a5601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

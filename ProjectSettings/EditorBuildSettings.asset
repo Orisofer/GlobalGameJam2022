@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Poem_1.unity
+    guid: 33d40d053455d4cae8ca68ba89bd83c2
+  - enabled: 1
     path: Assets/Scenes/Level_2.unity
     guid: 001a28138e4a9004cad435dd182a0f11
   - enabled: 1

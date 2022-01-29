@@ -155,38 +155,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &257072225 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3433690111392031964, guid: 84750541314f546008f780556c3c3cb6, type: 3}
-  m_PrefabInstance: {fileID: 3433690112468482321}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &257072231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257072225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03ebf4178a2434b2fa3927e927af14f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 5
-  CF2:
-    useTriggers: 1
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
 --- !u!1 &262186722
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,10 +1979,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3433690110866666100, guid: 84750541314f546008f780556c3c3cb6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3433690111392031936, guid: 84750541314f546008f780556c3c3cb6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2059,17 +2023,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3433690111392031939, guid: 84750541314f546008f780556c3c3cb6, type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 3433690111392031964, guid: 84750541314f546008f780556c3c3cb6, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3433690111392031964, guid: 84750541314f546008f780556c3c3cb6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84750541314f546008f780556c3c3cb6, type: 3}

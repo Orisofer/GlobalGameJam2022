@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6122159295539664689}
   - component: {fileID: 2152712201057989133}
+  - component: {fileID: 8883717900369725258}
   m_Layer: 0
   m_Name: Layer 5
   m_TagString: Untagged
@@ -155,6 +156,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8883717900369725258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4232730238747747802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85aa8b6c8747f4274a3fc4c94f6a5601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4274910697129526958
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,6 +179,7 @@ GameObject:
   - component: {fileID: 3038157104650219221}
   - component: {fileID: 835398496014458789}
   - component: {fileID: 8151808564520385098}
+  - component: {fileID: 52573149116676650}
   m_Layer: 0
   m_Name: Closed Sprite Shape
   m_TagString: Untagged
@@ -385,3 +399,15 @@ MonoBehaviour:
   m_EnableTangents: 0
   m_GeometryCached: 0
   m_UTess2D: 0
+--- !u!114 &52573149116676650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4274910697129526958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85aa8b6c8747f4274a3fc4c94f6a5601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

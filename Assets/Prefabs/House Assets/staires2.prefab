@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2522408949518265351}
   - component: {fileID: 2522408949518265350}
   - component: {fileID: 3567081705440918539}
+  - component: {fileID: 2610552345059827996}
   m_Layer: 0
   m_Name: staires2
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -5778779791802457760, guid: acd23662eb990c94fbc312dfe148b379, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -123,3 +124,15 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &2610552345059827996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2522408949518265345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85aa8b6c8747f4274a3fc4c94f6a5601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
